@@ -1,9 +1,7 @@
 body{
     margin:0;
 }
-@media only screen and (min-width:1024px){
-    dispaly:flex;
-}
+
 header{
     background-image: url('/images/promo-background.jpeg');
     height:600px;
@@ -22,7 +20,7 @@ header{
 nav ul{
     display: flex;
     position: absolute;
-    left:600px;
+    left:230px;
     top:20px;
    
 }
@@ -45,7 +43,7 @@ nav .pics{
     display: flex;
     justify-content:space-between;
     position: absolute;
-    left:1550px;
+    left:80rem;
     top:50px;
 }
 nav .pics i{
@@ -156,11 +154,11 @@ background-color: black;
 .third-part-content-img{
 margin:50px;
 padding:20px;
-    position: absolute;
-left: 1200px;
+position: absolute;
+left: 55rem;
 right:60px;
 
-width:550px;
+width:400px;
 height:500px;
 background-color: black;
     opacity:0.6;
